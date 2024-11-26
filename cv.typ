@@ -5,7 +5,7 @@
 
 #set page(
   margin: 30mm,
-  footer: [
+  footer: context [
     #datetime.today().display()
     #h(1fr)
     #counter(page).display("1/1", both: true)
