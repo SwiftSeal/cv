@@ -12,4 +12,5 @@ jobs:
         with:
           source_file: cv.typ
           options: |
-            --pdf-standard=a-2b
+            --pdf-standard
+            a-2b
