@@ -31,6 +31,8 @@
 #linkedin-icon(baseline: 15%, height: 1em)
 #link("https://www.linkedin.com/in/moray-smith/")[moray-smith]
 
+#set align(left)
+
 // A nice gradient to separate header
 #rect(
   width: 100%,
@@ -39,7 +41,6 @@
     ..color.map.magma,
   ),
 )
-#set align(left)
 
 == Education
 
